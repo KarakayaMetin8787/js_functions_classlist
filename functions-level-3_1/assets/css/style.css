@@ -1,0 +1,128 @@
+header h1 {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 10vh;
+}
+main .ballOne {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  transform: rotate(45deg);
+}
+main .ballOne .halb {
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  top: 0;
+}
+main .ballOne .rot {
+  background-color: red;
+}
+main .ballOne .blau {
+  background-color: blue;
+  top: 50%;
+}
+main .ballOne:hover {
+  box-shadow: 10px 5px 3px black;
+}
+main .ballTwo {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  transform: rotate(45deg);
+}
+main .ballTwo .halb {
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  top: 0;
+}
+main .ballTwo .aqua {
+  background-color: aqua;
+}
+main .ballTwo .brown {
+  background-color: brown;
+  top: 50%;
+}
+main .ballTwo:hover {
+  box-shadow: 10px 5px 3px black;
+}
+main .ballThree {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  transform: rotate(45deg);
+}
+main .ballThree .halb {
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  top: 0;
+}
+main .ballThree .gold {
+  background-color: gold;
+}
+main .ballThree .schwarz {
+  background-color: black;
+  top: 50%;
+}
+main .ballThree:hover {
+  box-shadow: 10px 5px 3px black;
+}
+main .ballFour {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  transform: rotate(45deg);
+}
+main .ballFour .halb {
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  top: 0;
+}
+main .ballFour .greenyellow {
+  background-color: greenyellow;
+}
+main .ballFour .orchid {
+  background-color: orchid;
+  top: 50%;
+}
+main .ballFour:hover {
+  box-shadow: 10px 5px 3px black;
+}
+
+.divOne {
+  background-color: blue;
+  color: red;
+}
+
+.divTwo {
+  background-color: brown;
+  color: aqua;
+}
+
+.divThree {
+  background-color: black;
+  color: gold;
+}
+
+.divFour {
+  background-color: orchid;
+  color: greenyellow;
+}
+
+/*# sourceMappingURL=style.css.map */

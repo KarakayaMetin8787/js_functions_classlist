@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.styleOne {
+    font-size: 4rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: chocolate;
+}
+
+.styleTwo {
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: teal;
+}

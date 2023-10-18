@@ -1,0 +1,124 @@
+header {
+    h1 {
+        text-align: center;
+    }
+}
+main {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 10vh;
+    .ballOne {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        position: relative;
+        overflow: hidden;
+        transform: rotate(45deg);
+        .halb {
+            width: 100%;
+            height: 50%;
+            position: absolute;
+            top: 0;
+        }
+        .rot {
+            background-color: red;
+        }
+        .blau {
+            background-color: blue;
+            top: 50%;
+        }
+    }
+    .ballOne:hover{
+        box-shadow: 10px 5px 3px black;
+    }
+    .ballTwo {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        position: relative;
+        overflow: hidden;
+        transform: rotate(45deg);
+        .halb {
+            width: 100%;
+            height: 50%;
+            position: absolute;
+            top: 0;
+        }
+        .aqua {
+            background-color: aqua;
+        }
+        .brown {
+            background-color: brown;
+            top: 50%;
+        }
+    }
+    .ballTwo:hover{
+        box-shadow: 10px 5px 3px black;
+    }
+    .ballThree {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        position: relative;
+        overflow: hidden;
+        transform: rotate(45deg);
+        .halb {
+            width: 100%;
+            height: 50%;
+            position: absolute;
+            top: 0;
+        }
+        .gold {
+            background-color: gold;
+        }
+        .schwarz {
+            background-color: black;
+            top: 50%;
+        }
+    }
+    .ballThree:hover{
+        box-shadow: 10px 5px 3px black;
+    }
+    .ballFour {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        position: relative;
+        overflow: hidden;
+        transform: rotate(45deg);
+        .halb {
+            width: 100%;
+            height: 50%;
+            position: absolute;
+            top: 0;
+        }
+        .greenyellow {
+            background-color: greenyellow;
+        }
+        .orchid {
+            background-color: orchid;
+            top: 50%;
+        }
+    }
+    .ballFour:hover{
+        box-shadow: 10px 5px 3px black;
+    }
+}
+
+.divOne {
+    background-color:blue;
+    color: red;
+}
+.divTwo {
+    background-color:brown;
+    color: aqua;
+}
+.divThree {
+    background-color:black;
+    color: gold;
+}
+.divFour {
+    background-color:orchid;
+    color: greenyellow;
+}
